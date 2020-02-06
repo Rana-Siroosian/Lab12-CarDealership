@@ -2,19 +2,18 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
-
+/**
+ * 
+ * 
+ * @author >>RanaSiroosian<<
+ *
+ */
 public class CarApp2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner scnr = new Scanner (System.in);
 		
-		extracted(scnr);
 		
-		
-	}
-
-	private static void extracted(Scanner scnr) {
 		Car car1 = new Car ("Jeep", "Compass", 2017, 18195.36 );
 		Car car2 = new Car ("Honda", "Civic", 2015, 11000.00);
 		Car car3 = new Car ("Ford", "Mustang", 2017, 32325.85);
@@ -50,9 +49,7 @@ public class CarApp2 {
 			i++;
 		}
 		System.out.println("" + (moreCars.size()+1) + " Quit");
-		int sum = 0;
 		boolean loop = false;
-		double[] customerCart ;
 
 		do {
 			int choice = 0;

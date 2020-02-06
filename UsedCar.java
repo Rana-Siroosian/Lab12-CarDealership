@@ -1,4 +1,9 @@
-
+/**
+ * 
+ * 
+ * @author >>RanaSiroosian<<
+ *
+ */
 public class UsedCar extends Car {
 
 	
