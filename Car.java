@@ -63,7 +63,6 @@ public class Car {
 
 	@Override
 	public String toString() {
-//		return "Car [make=" + make + ", model=" + model + ", year=" + year + ", price=" + price + "]";
 		return String.format("%-15s %-15s  %-10d  $%-10.2f\n", getMake(), getModel(), getYear(), getPrice());
 	}
 
